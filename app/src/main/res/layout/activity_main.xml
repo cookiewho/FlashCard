@@ -14,28 +14,42 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/GoldExperience"
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:background="@color/GoldExperience"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Answer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="311dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/StickyFingers"
         android:gravity="center"
         android:text="Barack Obama"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:background="@color/StickyFingers"
         android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/mybutton"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/GoldExperience2"
+        android:scaleType="fitStart"
+        android:tint="@color/GoldExperience"
+        app:srcCompat="@drawable/ic_iconmonstr_plus_6"
+        tools:srcCompat="@drawable/ic_iconmonstr_plus_6" />
 
 </RelativeLayout
     >
